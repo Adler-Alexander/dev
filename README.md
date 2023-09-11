@@ -1,4 +1,5 @@
 # CCA for Splunk
+### A full lifecycle management interface for Splunk
 Ever wished you had a central interface to interact with all aspects of Splunk architecture and administration? 
 Let's be honest, running Splunk is all about finding an efficient and scalable way to manage all .conf files and the other magic under the hood. At scale, the complexity often gives way to either speed or quality - if you don't find a way to automate it.
 
@@ -10,6 +11,12 @@ Playbooks are DRY (Don't Repeat Yourself), with almost no tasks - instead they a
 You can find a more indepth Project Presentation as well as a Q&A section in the [Wiki](https://github.com/innovationfleet/cca_for_splunk/wiki).
 
 ![alt text](https://www.orangecyberdefense.com/fileadmin/_processed_/d/8/csm_Splunk_vs_2_45d2f9bce5.png)
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 # Where does CCA for come from and who supports it?
 
