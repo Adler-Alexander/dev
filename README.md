@@ -9,6 +9,26 @@ See how you can manage certificates, upgrades & app deployments with full contro
 You can find the Project Presentation as well as a Q&A section in the [Wiki](https://github.com/innovationfleet/cca_for_splunk/wiki).
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------
 Vad är CCA?
     Visionen
     Timmarna 
