@@ -1,22 +1,27 @@
 # CCA for Splunk
 ![alt text](https://badgen.net/badge/Latest%20Version/2023.3.1-RC/green?icon=github)
 ### A full lifecycle management interface for Splunk
-![alt text](https://www.orangecyberdefense.com/fileadmin/_processed_/d/8/csm_Splunk_vs_2_45d2f9bce5.png)
+
 Ever wished you had a central interface to interact with all aspects of Splunk architecture and administration? 
 Let's be honest, running Splunk is all about finding an efficient and scalable way to manage all .conf files and the other magic under the hood. At scale, the complexity often gives way to either speed or quality - if you don't find a way to automate it.
 
 That is precisely what we've done for years, and now it's time to share how you can do it to. Our solution enables a full lifecycle management of Splunk using a **C**ontinuous **C**onfiguration **A**utomation framework powered by Ansible.
+
+## Table of Contents
+- [What is CCA for Splunk?](#what-is-cca-for-splunk?)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## What is CCA for Splunk? 
 The templates that we provide for configuring Splunk roles are used in our own Multisite Cluster implementations. After you have configured your project, the control is in your hands when it comes to deciding your settings. Adding or modifying parameters has no impact on the framework and are localized under your control.
 
 Playbooks are DRY (Don't Repeat Yourself), with almost no tasks - instead they are using common code in roles. So an update of a task has just to be done in one place, keeping code updates much cleaner and easier to overview.
 
 You can find a more indepth Project Presentation as well as a Q&A section in the [Wiki](https://github.com/innovationfleet/cca_for_splunk/wiki).
+![alt text](https://www.orangecyberdefense.com/fileadmin/_processed_/d/8/csm_Splunk_vs_2_45d2f9bce5.png)
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 # Where does CCA for come from and who supports it?
 
