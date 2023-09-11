@@ -1,5 +1,5 @@
 # CCA for Splunk
-![alt text](https://badgen.net/badge/Latest%20Version/2023.3.1-RC/green?icon=github)
+![alt text](https://badgen.net/badge/Latest%20Version/2023.2.2/green?icon=github)
 ### A full lifecycle management interface for Splunk
 
 Ever wished you had a central interface to interact with all aspects of Splunk architecture and administration? 
@@ -8,7 +8,7 @@ Let's be honest, running Splunk is all about finding an efficient and scalable w
 That is precisely what we've done for years, and now it's time to share how you can do it to. Our solution enables a full lifecycle management of Splunk using a **C**ontinuous **C**onfiguration **A**utomation framework powered by Ansible.
 
 ## Table of Contents
-- [What is CCA for Splunk?](#what-is-cca-for-splunk?)
+- [What is CCA for Splunk?](#what-is-cca-for-splunk)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
