@@ -53,6 +53,7 @@ Visit our [CCA for Splunk - Premium](https://www.orangecyberdefense.com/se/cca-f
   - CCA for Splunk can deploy anything from standalone servers to multisite clusters, and up to 9 clusters in each environment, controlled by the same automation framework.
   - A proper planning is key to define the type of architecture(s) that will be created, their environment, individual specifications and requirements.
   <br>
+
 2: **Setup the CCA manager**
 
   - The CCA manager is the host that orcastrates and manages the automation and configuration deployment.
