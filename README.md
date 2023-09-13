@@ -58,8 +58,7 @@ There are currently two ways to deploy the manager.
 1. Use the docker image for cca_for_splunk
 2. Setup the manager on a regular host and pull CCA for Splunk. 
 
-For more in depth information check this guide 
-* [Setup CCA Manager](/docs/SetupCCAManager.md)
+For more in depth information check this guide: [Setup CCA Manager](/docs/SetupCCAManager.md)
 
 **Step 3: Setup your environment**
 

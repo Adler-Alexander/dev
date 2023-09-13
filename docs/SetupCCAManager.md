@@ -1,15 +1,18 @@
 ## Setup the CCA Manager
 
+### Use the docker image
 To use the docker image for CCA for Splunk follow the instruction in
 [CCA for Splunk - Docker Repo](https://github.com/innovationfleet/docker).
 When completed you can jump to setup the environment.
 
-**Step 2: Alt 2: Install the Manager and pull CCA for Splunk**
+### Install the Manager and pull CCA for Splunk
 Machine minimum requirements:
+```
  CPU: 2core
  RAM: 4GB
  Disk: 40GB
  preferred OS: RHEL 8 or higher, CentOS 8 stream or higher
+```
 
 **a)** from the cca_for_splunk repo, run the Readiness playbooks to ensure that you have the prerequisites and install missing tools/packages:
 Follow the instructions in [Setup CCA Manager](#prerequisites)
