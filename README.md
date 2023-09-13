@@ -9,7 +9,7 @@ Let's be honest, running Splunk is all about finding an efficient and scalable w
 That is precisely what we've done for years, and now it's time to share how you can do it to. Our solution enables a full lifecycle management of Splunk using a **C**ontinuous **C**onfiguration **A**utomation framework powered by Ansible.
 
 >[!NOTE]
-> Please note that this is the free open-source version of this automation framework, a trickledown version from our premium option. Hence the low amount of commits in this repo, this does not reflect the development status. For a better overview check our [release notes](/RELEASE_NOTES.txt). 
+> Please note that this is the free open-source version of this automation framework, a trickledown version from our premium option. Hence the low amount of commits in this repo, this does not reflect the development status. For a better overview check our [release notes](https://github.com/innovationfleet/cca_for_splunk/blob/main/RELEASE_NOTES.txt). 
 
 
 ## Table of Contents

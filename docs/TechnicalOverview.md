@@ -51,7 +51,7 @@ The repository holds all data onboarding related configuration and apps. This re
 
 ### Repository overview
 
-![CCA Overview](media/cca_overview.png)
+![CCA Overview](https://github.com/innovationfleet/cca_for_splunk/blob/main/media/cca_overview.png)
 
 - **CORE - cca_for_splunk** : This is the main repository where the core code of CCA for Splunk is stored. Treat this repository as read-only, do not store any custom playbooks or roles in this repo as that will break future updates. Custom roles and playbooks can easily be added to the below repositories in their respective `roles` and `playbooks` directory. Inclusion of the custom playbooks are automatic in `cca_ctrl`
 
