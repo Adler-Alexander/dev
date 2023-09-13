@@ -15,7 +15,7 @@ That is precisely what we've done for years, and now it's time to share how you 
 - [What is CCA for Splunk](#what-is-cca-for-splunk)
 - [Commercial use/support](#commercial-version-of-cca-for-splunk)
 - [Features](#features)
-- [Tecnical overview](#technical-overview)
+- [Technical overview](#technical-overview)
 - [How to get started](#how-to-get-started)
 - [Useful links to deepdive](#Deep-dive)
 
@@ -49,8 +49,8 @@ Visit our [CCA for Splunk - Premium](https://www.orangecyberdefense.com/se/cca-f
 
 ## How to get started
 **Step 1: Plan your architecture**
- CCA for Splunk can deploy anything from standalone servers to multisite clusters, and up to 9 clusters in each environment, controlled by the same automation framework.
- A proper planning is key to define the type of architecture(s) that will be created, their environment, individual specifications and requirements.
+CCA for Splunk can deploy anything from standalone servers to multisite clusters, and up to 9 clusters in each environment, controlled by the same automation framework.
+A proper planning is key to define the type of architecture(s) that will be created, their environment, individual specifications and requirements.
 
 **Step 2: Setup the CCA manager**
 The CCA manager is the host that orcastrates and manages the automation and configuration deployment.
