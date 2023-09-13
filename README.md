@@ -1,5 +1,5 @@
 ![alt text](https://github.com/Adler-Alexander/dev/blob/main/docs/img/CCAforSplunk_orange.png)
-<img align="right" src="https://badgen.net/badge/Latest%20Premium%20Version/2023.3.1/green?icon=github"><img align="right" src="https://badgen.net/badge/Latest%20Version/2023.2.2/green?icon=github">
+<img align="right" src="https://badgen.net/badge/Latest%20Premium%20Version/2023.3.1/green?icon=github"><img align="right" src="https://badgen.net/badge/Latest%20Release/2023.2.2/green?icon=github">
 ### A full lifecycle management interface for Splunk
 
 Ever wished you had a central interface to interact with all aspects of Splunk architecture and administration? 
@@ -48,11 +48,11 @@ Visit our [CCA for Splunk - Premium](https://www.orangecyberdefense.com/se/cca-f
 
 
 ## How to get started
-**Step 1: Plan your architecture**
+1: **Plan your architecture**
 
-CCA for Splunk can deploy anything from standalone servers to multisite clusters, and up to 9 clusters in each environment, controlled by the same automation framework.
-A proper planning is key to define the type of architecture(s) that will be created, their environment, individual specifications and requirements.
-<br>
+  - CCA for Splunk can deploy anything from standalone servers to multisite clusters, and up to 9 clusters in each environment, controlled by the same automation framework.
+  - A proper planning is key to define the type of architecture(s) that will be created, their environment, individual specifications and requirements.
+  <br>
 **Step 2: Setup the CCA manager**
 
 The CCA manager is the host that orcastrates and manages the automation and configuration deployment.
@@ -70,37 +70,7 @@ Watch the video to see the steps of setup manager before you continue.
 [![cca_for_splunk Setup Wizard](https://asciinema.org/a/567633.svg)](https://asciinema.org/a/567633)
 
 
-**b**) run `./cca_ctrl --setup` from the **cca_for_splunk** repo. The wizard will ask you to provide the following information:
 
-* Name of your environment (cca_lab)
-
-When this information is collected, template files will be copied from the **cca_for_splunk/templates** directory to build the base for the two required repositories, when this is completed you will be asked to provide the following information:
-
-* Splunk Secret, this is the key used to encrypt and decrypt Splunk Passwords and secrets. Accept the generated key or provide your own.
-* The name of the admin user (admin)
-* The password for the admin user, a random password is generated. Store it if you choose to use it.
-* The general pass4SymmKey that is used by Splunk for S2S communication, like communication to license managers. If you have an existing infrastructure, use that pass4SymmKey. If not keep the random key.
-
-Next comes a generation of 4 different sslpasswords, server, web, inputs and outputs. CCA for Splunk can deploy 4 unique certificates to the infrastructure. If you already have certificates that can be used, use the password that correlates to the respective private key. Read more about [certificates](/roles/cca.splunk.ssl-certificates/README.md). Otherwise use the given passwords when generating the encrypted private keys.
-
-* Password for Server Certificate
-* Password for Inputs Certificate
-* Password for Outputs Certificate
-* Password for Web Certificate
-
-The wizard assumes that you have 1 index and 1 search head cluster and will prompt for pass4SymmKeys for those clusters. If you have an existing cluster, add the existing pass4SymmKey instead of the pre-generated one.
-
-* Cluster C1 pass4SymmKey
-* Search Head Cluster C1 pass4SymmKey
-
-In the background 8 more pass4SymmKeys for respective cluster is generated and stored in the Splunk Infrastructure repo at environments/ENVIRONMENT_NAME/group_vars/all/cca_splunk_secrets
-
-To access the cleartext value of one of the ansible secrets, run the following command from the relevant repo. Replace the variable specified for `var`.
-```
-ansible -i environments/cca_lab -m debug -a "var=cca_splunk_certs_server_default_sslpassword" localhost
-```
-
-**c**) Verification: Verify that two companion repos has been created and staged with the correct information.
 
 **Step 4:**  Update ansible inventory files and variable values in the following files in your environment directory.
 
