@@ -64,9 +64,8 @@ Visit our [CCA for Splunk - Premium](https://www.orangecyberdefense.com/se/cca-f
 For more in depth information check this guide: [Setup CCA Manager](/docs/SetupCCAManager.md)
 <br>
 
-**Step 3: Setup your environment**<br>
-
-Watch the video to see the steps of setup manager before you continue.
+3: **Setup your environment**<br>
+  Watch the video to see the steps of setup manager before you continue.
 
 [![cca_for_splunk Setup Wizard](https://asciinema.org/a/567633.svg)](https://asciinema.org/a/567633)
 
