@@ -47,7 +47,15 @@ Visit our [CCA for Splunk - Premium](https://www.orangecyberdefense.com/se/cca-f
 
 ## Features
 ### Open-source
+  * Feature 1
+  * Feature 2
 ### Premium
+  * Solution Packs
+    * Cloud LCM
+    * ...
+  * Premium Feature 1
+  * ....
+
 
 
 ## How to get started
