@@ -1,4 +1,5 @@
-# CCA for Splunk
+![alt text](https://badgen.net/badge/Latest%20Version/2023.2.2/green?icon=github)
+# CCA for Splunk 
 ![alt text](https://badgen.net/badge/Latest%20Version/2023.2.2/green?icon=github)
 ### A full lifecycle management interface for Splunk
 
@@ -38,7 +39,6 @@ Visit our [CCA for Splunk - Premium](https://www.orangecyberdefense.com/se/cca-f
 
 # Features
 ## Opensource
-' 
 ## Premium
 
 
