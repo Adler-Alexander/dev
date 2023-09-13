@@ -15,7 +15,6 @@ That is precisely what we've done for years, and now it's time to share how you 
 - [What is CCA for Splunk](#what-is-cca-for-splunk)
 - [Commercial use/support](#commercial-version-of-cca-for-splunk)
 - [Features](#features)
-- [Technical overview](#technical-overview)
 - [How to get started](#how-to-get-started)
 - [Useful links to deepdive](#Deep-dive)
 
@@ -25,7 +24,11 @@ The templates that we provide for configuring Splunk roles are used in our own M
 Playbooks are DRY (Don't Repeat Yourself), with almost no tasks - instead they are using common code in roles. So an update of a task has just to be done in one place, keeping code updates much cleaner and easier to overview.
 
 You can find a more indepth Project Presentation as well as a Q&A section in the [Wiki](https://github.com/innovationfleet/cca_for_splunk/wiki).
+
 ![alt text](https://www.orangecyberdefense.com/fileadmin/_processed_/d/8/csm_Splunk_vs_2_45d2f9bce5.png)
+
+For a deep-dive in the technology behind CCA for Splunk please have a look at this documentation.
+[Technical documentation](/docs/TechnicalOverview.md).
 
 ### Where does CCA for come from and who supports it?
 
@@ -104,3 +107,7 @@ To run an onboarding playbook:
 cd ~/data/main/cca_splunk_onboarding
 ./cca_ctrl -c
 ```
+
+>[!NOTE]
+> Don't forget that we offer the service to setup and support CCA for you! Please check out our premium feature if this is off interest. [CCA for Splunk - Premium](https://www.orangecyberdefense.com/se/cca-for-splunk)
+
