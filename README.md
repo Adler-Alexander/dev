@@ -7,6 +7,8 @@ Let's be honest, running Splunk is all about finding an efficient and scalable w
 
 That is precisely what we've done for years, and now it's time to share how you can do it to. Our solution enables a full lifecycle management of Splunk using a **C**ontinuous **C**onfiguration **A**utomation framework powered by Ansible.
 
+[!NOTE]Please note that this is the Open-source version. This is updated with new versions when they are released. All development is done is a private repo.
+
 ## Table of Contents
 - [What is CCA for Splunk?](#what-is-cca-for-splunk)
 - [Commercial use/support](#commercial-version-of-cca-for-splunk)
@@ -37,36 +39,6 @@ Visit our [CCA for Splunk - Premium](https://www.orangecyberdefense.com/se/cca-f
 
 
 # Features
-## Opensource
+## Open-source
 ## Premium
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---------------------------------------
-Vad är CCA?
-    Visionen
-    Timmarna 
-Vem är CCA för? Baka in CCA premium
-Features
-Readme's ?
-
-How to
 
