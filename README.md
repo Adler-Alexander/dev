@@ -1,4 +1,5 @@
 ![alt text](https://github.com/Adler-Alexander/dev/blob/main/media/CCAforSplunk_orange.png)
+<br>
 <img align="right" src="https://badgen.net/badge/Latest%20Premium%20Version/2023.3.1/green?icon=github"><img align="right" src="https://badgen.net/badge/Latest%20Release/2023.2.2/green?icon=github"><img align="right" src="https://badgen.net/badge/License/MIT/blue">
 ### A full lifecycle management interface for Splunk
 
@@ -8,7 +9,7 @@ Let's be honest, running Splunk is all about finding an efficient and scalable w
 That is precisely what we've done for years, and now it's time to share how you can do it to. Our solution enables a full lifecycle management of Splunk using a **C**ontinuous **C**onfiguration **A**utomation framework powered by Ansible.
 
 >[!NOTE]
-> Please note that this is the free open-source version of this automation framework, a trickledown version from our premium option. All development is being made in a seperate repository.
+> Please note that this is the free open-source version of this automation framework, a trickledown version from our premium option. Hence the low amount of commits in this repo, this does not reflect the development status. For a better overview check our [release notes](/RELEASE_NOTES.txt). 
 
 
 ## Table of Contents
@@ -46,15 +47,7 @@ Visit our [CCA for Splunk - Premium](https://www.orangecyberdefense.com/se/cca-f
 
 
 ## Features
-### Open-source
-  * Feature 1
-  * Feature 2
-### Premium
-  * Solution Packs
-    * Cloud LCM
-    * ...
-  * Premium Feature 1
-  * ....
+WILL BE REPLACED WITH A VERSION/FEATURE TABLE.
 
 
 
