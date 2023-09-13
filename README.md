@@ -29,7 +29,7 @@ You can find a more indepth Project Presentation as well as a Q&A section in the
 ![alt text](https://www.orangecyberdefense.com/fileadmin/_processed_/d/8/csm_Splunk_vs_2_45d2f9bce5.png)
 
 For a deep-dive in the technology behind CCA for Splunk please have a look at this documentation.
-[Technical documentation](/docs/TechnicalOverview.md).
+[Technical documentation](/documentation/TechnicalOverview.md).
 
 ### Where does CCA for come from and who supports it?
 
@@ -64,19 +64,19 @@ WILL BE REPLACED WITH A VERSION/FEATURE TABLE.
       1. Use the docker image for cca_for_splunk
       2. Setup the manager on a regular host and pull CCA for Splunk. 
 
-For more in depth information check this guide: [Setup CCA Manager](/docs/SetupCCAManager.md)
+For more in depth information check this guide: [Setup CCA Manager](/documentation/SetupCCAManager.md)
   <br>
 
 3: **Setup your environment**<br>
   Watch the video to see the steps of setup manager before you continue.
 
 [![cca_for_splunk Setup Wizard](https://asciinema.org/a/567633.svg)](https://asciinema.org/a/567633)
-For more in depth information check this guide: [Setup CCA Manager - Environment](/docs/SetupCCAManager.md#setup-the-environment)
+For more in depth information check this guide: [Setup CCA Manager - Environment](/documentation/SetupCCAManager.md#setup-the-environment)
 
 
 
 4: **Update ansible inventory and variables**
-For more in depth information check this guide: [Setup CCA Manager - Ansible configuration](/docs/SetupCCAManager.md#update-ansible-inventory-files-and-variable-values)
+For more in depth information check this guide: [Setup CCA Manager - Ansible configuration](/documentation/SetupCCAManager.md#update-ansible-inventory-files-and-variable-values)
 <br>
 
 5: **Validate your environment variables**
