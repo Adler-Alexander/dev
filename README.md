@@ -1,5 +1,5 @@
 ![alt text](https://github.com/Adler-Alexander/dev/blob/main/media/CCAforSplunk_orange.png)
-<img align="right" src="https://badgen.net/badge/License/MIT/blue"><img align="right" src="https://badgen.net/badge/Latest%20Premium%20Version/2023.3.1/green?icon=github"><img align="right" src="https://badgen.net/badge/Latest%20Release/2023.2.2/green?icon=github">
+<img align="right" src="https://badgen.net/badge/Latest%20Premium%20Version/2023.3.1/green?icon=github"><img align="right" src="https://badgen.net/badge/Latest%20Release/2023.2.2/green?icon=github"><img align="right" src="https://badgen.net/badge/License/MIT/blue">
 ### A full lifecycle management interface for Splunk
 
 Ever wished you had a central interface to interact with all aspects of Splunk architecture and administration? 
