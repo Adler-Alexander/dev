@@ -1,5 +1,5 @@
 ![alt text](https://github.com/Adler-Alexander/dev/blob/main/docs/img/CCAforSplunk_orange.png)
-<img align="right" src="https://badgen.net/badge/Latest%20Version/2023.2.2/green?icon=github">
+<img align="right" src="https://badgen.net/badge/Latest%20Premium%20Version/2023.3.1/green?icon=github"><img align="right" src="https://badgen.net/badge/Latest%20Version/2023.2.2/green?icon=github">
 ### A full lifecycle management interface for Splunk
 
 Ever wished you had a central interface to interact with all aspects of Splunk architecture and administration? 
@@ -8,7 +8,7 @@ Let's be honest, running Splunk is all about finding an efficient and scalable w
 That is precisely what we've done for years, and now it's time to share how you can do it to. Our solution enables a full lifecycle management of Splunk using a **C**ontinuous **C**onfiguration **A**utomation framework powered by Ansible.
 
 >[!NOTE]
-> Please note that this is the open-source version. This is updated with new versions when they are released. All development is done is a seperate repository.
+> Please note that this is the free open-source version of this automation framework, a trickledown version from our premium option. All development is being made in a seperate repository.
 
 
 ## Table of Contents
@@ -32,7 +32,7 @@ You can find a more indepth Project Presentation as well as a Q&A section in the
 The framework concept utilized in CCA for Splunk goes back several years and has proven to be absolutely critical in managing complex Splunk infrastructures with 100+ servers in several environments. 450+ tasks has been developed across 10 carefully created Ansible roles. We continuously invest **hundreds of development hours for every release**, so that you can get the scalability that you should expect out of a automation framework.
 Besides adding your servers to the ansible inventory file, there is less than 25 parameters that you have to set per environment - then off you go to much different Splunk journey going forward.
 
-This is the free open source version of this automation framework, a trickledown version from our premium option but with all features needed to administrate any size of Splunk environment.
+This is the free open-source version of this automation framework, a trickledown version from our premium option but with all features needed to administrate any size of Splunk environment.
 
 
 
