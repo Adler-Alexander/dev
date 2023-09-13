@@ -117,5 +117,5 @@ cd ~/data/main/cca_splunk_onboarding
 ```
 
 >[!NOTE]
-> Don't forget that we offer the service to setup and support CCA for you! Please check out our premium feature if this is off interest. [CCA for Splunk - Premium](https://www.orangecyberdefense.com/se/cca-for-splunk)
+> Don't forget that we offer the service to setup and support CCA for you! Please check out our premium feature. [CCA for Splunk - Premium](https://www.orangecyberdefense.com/se/cca-for-splunk)
 
