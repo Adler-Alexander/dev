@@ -8,7 +8,8 @@ Let's be honest, running Splunk is all about finding an efficient and scalable w
 That is precisely what we've done for years, and now it's time to share how you can do it to. Our solution enables a full lifecycle management of Splunk using a **C**ontinuous **C**onfiguration **A**utomation framework powered by Ansible.
 
 >[!NOTE]
-> Please note that this is the Open-source version. This is updated with new versions when they are released. All development is done is a private repo.
+> Please note that this is the open-source version. This is updated with new versions when they are released. All development is done is a seperate repository.
+
 
 ## Table of Contents
 - [What is CCA for Splunk?](#what-is-cca-for-splunk)
@@ -24,7 +25,7 @@ Playbooks are DRY (Don't Repeat Yourself), with almost no tasks - instead they a
 You can find a more indepth Project Presentation as well as a Q&A section in the [Wiki](https://github.com/innovationfleet/cca_for_splunk/wiki).
 ![alt text](https://www.orangecyberdefense.com/fileadmin/_processed_/d/8/csm_Splunk_vs_2_45d2f9bce5.png)
 
-# Where does CCA for come from and who supports it?
+### Where does CCA for come from and who supports it?
 
 The framework concept utilized in CCA for Splunk goes back several years and has proven to be absolutely critical in managing complex Splunk infrastructures with 100+ servers in several environments. 450+ tasks has been developed across 10 carefully created Ansible roles. We continuously invest **hundreds of development hours for every release**, so that you can get the scalability that you should expect out of a automation framework.
 Besides adding your servers to the ansible inventory file, there is less than 25 parameters that you have to set per environment - then off you go to much different Splunk journey going forward.
@@ -39,7 +40,7 @@ CCA for Splunk is designed to be a companion tool for Splunk administrators in a
 Visit our [CCA for Splunk - Premium](https://www.orangecyberdefense.com/se/cca-for-splunk) page and read more about who backs this project and what else you can do with CCA for Splunk.
 
 
-# Features
-## Open-source
-## Premium
+## Features
+### Open-source
+### Premium
 
