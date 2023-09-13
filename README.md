@@ -61,47 +61,17 @@ Visit our [CCA for Splunk - Premium](https://www.orangecyberdefense.com/se/cca-f
       2. Setup the manager on a regular host and pull CCA for Splunk. 
 
 For more in depth information check this guide: [Setup CCA Manager](/docs/SetupCCAManager.md)
-<br>
+  <br>
 
 3: **Setup your environment**<br>
   Watch the video to see the steps of setup manager before you continue.
 
 [![cca_for_splunk Setup Wizard](https://asciinema.org/a/567633.svg)](https://asciinema.org/a/567633)
+For more in depth information check this guide: [Setup CCA Manager - Environment](/docs/SetupCCAManager.md#setup-the-environment)
 
 
 
-
-**Step 4:**  Update ansible inventory files and variable values in the following files in your environment directory.
-
-* group_vars/all/env_specific
-  * cca_splunk_license_manager_uri: 'https://UPDATE_LICENSE_MANAGER_FQDN:8089'
-  * domain_name: 'UPDATE_DOMAIN.NAME'
-  * cca_splunk_alert_action_smtp: 'UPDATE_SMTP_SERVER_FQDN'
-  * cca_splunk_health_alert_action_email_to: 'UPDATE_ALERT_EMAIL_ADDRESS'
-  * cca_splunk_extension_cert_rootca: 'UPDATE_ROOT_CA_EXPIRE_DATE_Issuing_CA_EXPIRE_DATE.pem'
-  * cca_splunk_extension_server_cert: 'splunk-server_UPDATE_EXPIRE_DATE.cer'
-  * cca_splunk_extension_server_key: 'splunk-server_UPDATE_EXPIRE_DATE.key'
-  * cca_splunk_extension_inputs_cert: 'splunk-inputs_UPDATE_EXPIRE_DATE.cer'
-  * cca_splunk_extension_inputs_key: 'splunk-inputs_UPDATE_EXPIRE_DATE.key'
-  * cca_splunk_extension_outputs_cert: 'splunk-outputs_UPDATE_EXPIRE_DATE.cer'
-  * cca_splunk_extension_outputs_key: 'splunk-outputs_UPDATE_EXPIRE_DATE.key'
-  * cca_splunk_extension_web_cert: 'splunk-web_UPDATE_EXPIRE_DATE.cer'
-  * cca_splunk_extension_web_key: 'splunk-web_UPDATE_EXPIRE_DATE.key'
-  * 'UPDATE_LICENSE_FILE.lic'
-* group_vars/all/linux
-  * splunk_user_uid: 'UPDATE_SPLUNK_UID'
-  * splunk_user_gid: 'UPDATE_SPLUNK_GID'
-  * firewall_zone_name: 'UPDATE_ZONE_NAME'
-  * firewall_zone_description: 'UPDATE_ZONE_DESCRIPTION'
-* hosts
-  * UPDATE Splunk S2S ports if the default don't match your environment.
-  * UPDATE Splunk enterprise version to your desired version.
-  * ansible_ssh_user="UPDATE_SSH_REMOTE_USER"
-  * UPDATE search and replication factor to match your environment
-  * UPDATE available sites to match your environment
-  * UPDATE hot and cold volume path to match your environment
-  * maxVolumeDataSizeMB_hot="UPDATE_HOT_VOLUME_SIZE_MB"
-  * maxVolumeDataSizeMB_cold="UPDATE_COLD_VOLUME_SIZE_MB"
+**Step 4:
 
 **Step 5:**
 
