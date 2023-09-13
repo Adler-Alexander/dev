@@ -71,33 +71,31 @@ For more in depth information check this guide: [Setup CCA Manager - Environment
 
 
 
-**Step 4:
+4: **Update ansible inventory and variables**
+For more in depth information check this guide: [Setup CCA Manager - Ansible configuration](/docs/SetupCCAManager.md#update-ansible-inventory-files-and-variable-values)
+<br>
 
-**Step 5:**
+5: **Validate your environment variables**
 
 Before you start using CCA after an updating to a new release, run the playbook `validate_cca_infrastructure_parameters.yml` to verify that all files in your `cca_splunk_infrastructure` repo are up to date with the required versions in the CCA framework. The verification needs to run in check mode, see command below.
-
-```
-cd ~/data/main/cca_splunk_infrastructure
-./cca_ctrl -c
-```
 
 To run an infrastructure playbook:
 ```
 cd ~/data/main/cca_splunk_infrastructure
 ./cca_ctrl -c
 ```
+<br>
 
-
-
+6: **Configure environment using CCA**
 If you have servers that is not yet setup for Splunk Enterprise, start by running the `configure_linux_servers.yml` playbook that will prepare the server with users, services and settings to install Splunk Enterprise on it. See [README.md](/roles/cca.core.linux/README.md)
 for cca.core.linux role.
 
 When the server configuration is completed, run playbook for managing one of the architectures you want to setup.
 
 If you are to install a multisite index and search head cluster. Start with configuring the index cluster using the playbook [manage_index_clusters.yml](/playbooks/manage_index_clusters.yml) before you run the playbook [manage_searchhead_cluster.yml](/playbooks/manage_searchhead_clusters.yml)
+<br>
 
-**Step 6:**
+7: **Onboard data and apps**
 
 Now when your Splunk infrastructure is running smooth, it's time to onboard data and apps. Follow the documentation at [cca.splunk.onboarding](/roles/cca.splunk.onboarding/README.md). When the apps and configuration are completed, run one of the deploy_* playbooks to deploy your apps to the destination server.
 

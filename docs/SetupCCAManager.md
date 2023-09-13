@@ -65,7 +65,9 @@ ansible -i environments/cca_lab -m debug -a "var=cca_splunk_certs_server_default
 
 **c**) Verification: Verify that two companion repos has been created and staged with the correct information.
 
-## Update ansible inventory files and variable values in the following files in your environment directory.
+## Update ansible inventory files and variable values
+In the following files in your environment directory make the nessesary changes with your values. 
+
 ### Variables
 * group_vars/all/env_specific
   * cca_splunk_license_manager_uri: 'https://UPDATE_LICENSE_MANAGER_FQDN:8089'
