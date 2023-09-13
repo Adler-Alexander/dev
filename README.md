@@ -12,10 +12,12 @@ That is precisely what we've done for years, and now it's time to share how you 
 
 
 ## Table of Contents
-- [What is CCA for Splunk?](#what-is-cca-for-splunk)
+- [What is CCA for Splunk](#what-is-cca-for-splunk)
 - [Commercial use/support](#commercial-version-of-cca-for-splunk)
-- [Contributing](#contributing)
-- [License](#license)
+- [Features](#features)
+- [Tecnical overview](#technical-overview)
+- [How to get started](#how-to-get-started)
+- [Useful links to deepdive](#Deep-dive)
 
 ## What is CCA for Splunk? 
 The templates that we provide for configuring Splunk roles are used in our own Multisite Cluster implementations. After you have configured your project, the control is in your hands when it comes to deciding your settings. Adding or modifying parameters has no impact on the framework and are localized under your control.
