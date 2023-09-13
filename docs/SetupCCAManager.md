@@ -1,3 +1,4 @@
+![alt text](https://github.com/Adler-Alexander/dev/blob/main/media/CCAforSplunk_orange.png)
 ## Setup the CCA Manager
 
 ### Use the docker image
