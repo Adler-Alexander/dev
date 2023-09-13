@@ -49,10 +49,12 @@ Visit our [CCA for Splunk - Premium](https://www.orangecyberdefense.com/se/cca-f
 
 ## How to get started
 **Step 1: Plan your architecture**
+
 CCA for Splunk can deploy anything from standalone servers to multisite clusters, and up to 9 clusters in each environment, controlled by the same automation framework.
 A proper planning is key to define the type of architecture(s) that will be created, their environment, individual specifications and requirements.
 
 **Step 2: Setup the CCA manager**
+
 The CCA manager is the host that orcastrates and manages the automation and configuration deployment.
 There are currently two ways to deploy the manager. 
 1. Use the docker image for cca_for_splunk
@@ -60,7 +62,7 @@ There are currently two ways to deploy the manager.
 
 For more in depth information check this guide: [Setup CCA Manager](/docs/SetupCCAManager.md)
 
-**Step 3: Setup your environment**
+**Step 3: Setup your environment**<br>
 
 Watch the video to see the steps of setup manager before you continue.
 
