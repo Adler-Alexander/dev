@@ -47,7 +47,67 @@ Visit our [CCA for Splunk - Premium](https://www.orangecyberdefense.com/se/cca-f
 
 
 ## Features
-WILL BE REPLACED WITH A VERSION/FEATURE TABLE.
+Open Source and Premium:
+| Feature                                         | Open Source          | Premium          | Premium Extension |
+| :-----------------------------------------------| :--------------------| :--------------- | :----------------- |
+| Templates for Splunk validated Architectures    | :white_check_mark:   | :white_check_mark: | |
+| Server naming convention for all Splunk roles    | :white_check_mark:   | :white_check_mark: | |
+| Setup Wizard for environment creation            | :white_check_mark:   | :white_check_mark: | |
+| Automation Readiness helper                      | :white_check_mark:   | :white_check_mark: | |
+| Management of All in one Servers                 | :white_check_mark:   | :white_check_mark: | |
+| Management of Data Collection Nodes              | :white_check_mark:   | :white_check_mark: | |
+| Management of Deployment Servers                 | :white_check_mark:   | :white_check_mark: | |
+| Management of Forwarders                         | :white_check_mark:   | :white_check_mark: | |
+| Management of Hybrid Search Heads                | :white_check_mark:   | :white_check_mark: | |
+| Management of Index Clusters                     | :white_check_mark:   | :white_check_mark: | |
+| Management of License Managers                   | :white_check_mark:   | :white_check_mark: | |
+| Management of Monitoring Consoles                | :white_check_mark:   | :white_check_mark: | |
+| Management of Search Head Clusters               | :white_check_mark:   | :white_check_mark: | |
+| Management of Standalone Indexers               | :white_check_mark:   | :white_check_mark: | |
+| Management of Standalone Search Heads            | :white_check_mark:   | :white_check_mark: | |
+| Standard Data Onboarding                         | :white_check_mark:   | :white_check_mark: | |
+| App deployment to all Splunk Roles               | :white_check_mark:   | :white_check_mark: | |
+| Rolling Splunk Enterprise Upgrade - Clusters     | :white_check_mark:   | :white_check_mark: | |
+| Upgrade Splunk Enterprise - Standalone servers   | :white_check_mark:   | :white_check_mark: | |
+| Configure Splunk to use self-signed Splunk certs | :white_check_mark:   | :white_check_mark: | |
+| Deploy Manually created organization certs       | :white_check_mark:   | :white_check_mark: | |
+| Linux server configuration                       | :white_check_mark:   | :white_check_mark: | |
+| Splunkd service creation with non-privileged user support | :white_check_mark:   | :white_check_mark: | |
+| Setup of CCA Manager                            | :white_check_mark:   | :white_check_mark: | |
+| Docker image with CCA for Splunk                | :white_check_mark:   | :white_check_mark: | |
+| Configure Splunk user profile                   | :white_check_mark:   | :white_check_mark: | |
+| Number of supported environments                | :infinity:   | :infinity: | |
+| Number of supported Index Clusters per environment | :one: | :nine: | |
+| Number of supported Search Head clusters per environment | :two: | :nine: | |
+| Framework Support from Orange Cyberdefense       | :heavy_minus_sign:  | :white_check_mark: | |
+| Password and Secrets update in Setup Wizard      | :heavy_minus_sign:  | :white_check_mark: | |
+| Management of Forwarder Groups                   | :heavy_minus_sign:  | :white_check_mark: | |
+| Management of Deployment Server Groups            | :heavy_minus_sign:  | :white_check_mark: | |
+| Advanced Data Onboarding                         | :heavy_minus_sign:  | :white_check_mark: | |
+| Advanced App deployment to Cluster Managers      | :heavy_minus_sign:  | :white_check_mark: | |
+| Advanced App deployment to Deployment Servers    | :heavy_minus_sign:  | :white_check_mark: | |
+| Advanced App deployment to Search Head Clusters   | :heavy_minus_sign:  | :white_check_mark: | |
+| Support for Orange Cyberdefense Extensions       | :heavy_minus_sign:  | :white_check_mark: | |
+| Version control of Splunk Infrastructure changes | :heavy_minus_sign:  | :white_check_mark: | |
+| Version control of Splunk Data Onboarding changes | :heavy_minus_sign:  | :white_check_mark: | |
+| Framework upgrade support                        | :heavy_minus_sign:  | :white_check_mark: | |
+| Framework Knowledge training                     | :heavy_minus_sign:  | :white_check_mark: | |
+| Data onboarding Knowledge training                | :heavy_minus_sign:  | :white_check_mark: | |
+| Access to submit issues                          | :heavy_minus_sign:  | :white_check_mark: | |
+| Access to pre-released                           | :heavy_minus_sign:  | :white_check_mark: | |
+| Access to development resources for custom demands | :heavy_minus_sign:  | :white_check_mark: | |
+| OS Disk setup and volume groups                  | :heavy_minus_sign:  | :white_check_mark: | |
+| Rolling OS upgrade with minimal disruption on Splunk ingest | :heavy_minus_sign: | :white_check_mark: | |
+| Deployment of certificates retrieved by Certificate API service | :heavy_minus_sign: | :white_check_mark: | |
+| Configuration of Splunk Enterprise Authentication | :heavy_minus_sign: | :white_check_mark: | |
+| Cloud LCM for AWS | :heavy_minus_sign: | :heavy_minus_sign: | :white_check_mark: |
+| Cloud LCM for Azure | :heavy_minus_sign: | :heavy_minus_sign: | :white_check_mark: |
+| Splunk Cloud LCM | :heavy_minus_sign: | :heavy_minus_sign: | :white_check_mark: |
+| Solutions for IT Serivce Intelligence | :heavy_minus_sign: | :heavy_minus_sign: | :white_check_mark: |
+| Dev Ops LCM for Splunk Enterprise | :heavy_minus_sign: | :heavy_minus_sign: | :white_check_mark: |
+| Dev Ops LCM for Splunk ITSI | :heavy_minus_sign: | :heavy_minus_sign: | :white_check_mark: |
+| Dev Ops LCM for Splunk Cloud Platform | :heavy_minus_sign: | :heavy_minus_sign: | :white_check_mark: |
+| Dev Ops LCM for Github | :heavy_minus_sign: | :heavy_minus_sign: | :white_check_mark: |
 
 
 
